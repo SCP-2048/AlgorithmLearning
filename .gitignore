@@ -1,0 +1,10 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+*.out
+
+# 本地测试输入输出
+in.txt
+out.txt
+input.txt
