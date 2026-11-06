@@ -1,0 +1,17 @@
+# ${1: Project Name}
+
+${2:Short description}
+
+## Installation
+```bash
+npm install
+```
+
+## Usage
+```bash
+npm start
+```
+
+## Content
+
+## Notes

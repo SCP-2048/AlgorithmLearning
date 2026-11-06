@@ -1,0 +1,10 @@
+.PHONY: install start build clean
+
+install:
+  npm install
+
+build:
+  npm run build
+
+clean:
+  rm -rf node_modules dist

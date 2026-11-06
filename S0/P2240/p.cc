@@ -32,7 +32,7 @@ int main(){
             break;
         }
     }
-    printf("%.2f", &res);
+    printf("%.2f", res);
 
     return 0;
 }

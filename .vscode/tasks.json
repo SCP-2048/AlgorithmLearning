@@ -25,6 +25,27 @@
                 "isDefault": true
             },
             "detail": "Build the active C++ file with MinGW g++."
+        },
+        {
+            "label": "run in terminal",
+            "type": "shell",
+            "command": "& '${fileDirname}\\${fileBasenameNoExtension}.exe'",
+            "options": {
+                "cwd": "${fileDirname}",
+                "shell": {
+                    "executable": "powershell.exe",
+                    "args": ["-NoLogo", "-NoProfile", "-Command"]
+                }
+            },
+            "dependsOn": ["C/C++: g++.exe build active file"],
+            "dependsOrder": "sequence",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "focus": true,
+                "clear": false
+            },
+            "problemMatcher": []
         }
     ],
     "version": "2.0.0"
