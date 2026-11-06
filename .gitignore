@@ -8,3 +8,11 @@
 in.txt
 out.txt
 input.txt
+
+#AI辅导文档
+信竞参赛手册.md
+AGENTS.md
+debug.log
+
+#测试用暂时程序
+test.*
